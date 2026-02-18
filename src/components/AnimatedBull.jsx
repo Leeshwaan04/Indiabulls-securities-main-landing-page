@@ -3,7 +3,7 @@ import { motion } from 'framer-motion';
 
 const AnimatedBull = ({ theme = 'dark' }) => {
     // High-end asset with green neon lines
-    const bullImage = "/neon-bull-ultra.png";
+    const bullImage = "neon-bull-ultra.png";
     const canvasRef = useRef(null);
     const [isLoaded, setIsLoaded] = useState(false);
 
